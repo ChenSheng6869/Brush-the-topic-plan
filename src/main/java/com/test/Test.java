@@ -1,5 +1,9 @@
 package com.test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -9,7 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @date: 2022/7/13 21:34
  * @version: 1.0
  */
-public class test {
+public class Test {
     //value1：线程不安全
     private static int value1 = 0;
     //value2：使用乐观锁
@@ -20,8 +24,19 @@ public class test {
         value3++;
     }
 
+
     //main函数
     public static void main(String[] args) throws InterruptedException {
+
+        ArrayList<Integer> integers = new ArrayList<>();
+        LinkedList<Object> objects = new LinkedList<>();
+        String as = new String("as");
+        StringBuffer anquan = new StringBuffer("anquan");
+        StringBuilder buanquan = new StringBuilder("buanquan");
+        HashSet<Integer> integers1 = new HashSet<>();
+
+        int[] arr = {-1,2,3,4,-5,-6,8,9,0};
+        Arrays.sort(arr);
         //开启1000个线程，并执行自增操作
         for(int i = 0; i < 1000; ++i){
             new Thread(new Runnable() {
@@ -38,6 +53,8 @@ public class test {
                     increaseValue3();
                 }
             }).start();
+
+
         }
         Thread.sleep(1000);
         System.out.println("线程不安全：" + value1);
