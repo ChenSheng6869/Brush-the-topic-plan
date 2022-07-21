@@ -9,8 +9,5 @@
         <module name="Brush-the-topic-plan" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Brush-the-topic-plan" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

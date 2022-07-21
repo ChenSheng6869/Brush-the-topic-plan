@@ -28,12 +28,12 @@ public class Test {
     //main函数
     public static void main(String[] args) throws InterruptedException {
 
-        ArrayList<Integer> integers = new ArrayList<>();
-        LinkedList<Object> objects = new LinkedList<>();
+        ArrayList<Integer> integers = new ArrayList<Integer>();
+        LinkedList<Object> objects = new LinkedList<Object>();
         String as = new String("as");
         StringBuffer anquan = new StringBuffer("anquan");
         StringBuilder buanquan = new StringBuilder("buanquan");
-        HashSet<Integer> integers1 = new HashSet<>();
+        HashSet<Integer> integers1 = new HashSet<Integer>();
 
         int[] arr = {-1,2,3,4,-5,-6,8,9,0};
         Arrays.sort(arr);
@@ -53,8 +53,6 @@ public class Test {
                     increaseValue3();
                 }
             }).start();
-
-
         }
         Thread.sleep(1000);
         System.out.println("线程不安全：" + value1);
