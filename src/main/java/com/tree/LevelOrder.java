@@ -15,14 +15,14 @@ import java.util.Queue;
 public class LevelOrder {
     //层序遍历, FIFO
     public List<List<Integer>> levelOrder(TreeNode root){
-        Queue<TreeNode> queue = new LinkedList<>();
-        List<List<Integer>> res = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
         //根节点入队
         if (root != null) queue.add(root);
         while (!queue.isEmpty()){
             //其实这里队列不为空, 即树不为空, 用于存储一层节点
-            LinkedList<Integer> tmp = new LinkedList<>();
-            List<Integer> tmp1 = new ArrayList<>();
+            LinkedList<Integer> tmp = new LinkedList<Integer>();
+            List<Integer> tmp1 = new ArrayList<Integer>();
             for (int i = queue.size(); i >0 ; i--) {
                 //返回第一个元素并从队列中删除
                 TreeNode node = queue.poll();

@@ -7,8 +7,8 @@ import java.util.Queue;
 public class PrintTree {
     public int[] levelOrder(TreeNode root){
         if (root == null) return new int[0];
-        Queue<TreeNode> queue = new LinkedList<>();
-        ArrayList<Integer> ans = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        ArrayList<Integer> ans = new ArrayList<Integer>();
         queue.offer(root);
         while (!queue.isEmpty()){
             //返回第一个元素并从队列中删除

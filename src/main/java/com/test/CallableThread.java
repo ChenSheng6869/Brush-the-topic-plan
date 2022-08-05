@@ -31,7 +31,7 @@ public class CallableThread implements Callable<Integer> {
 
     public static void main(String[] args) {
         CallableThread t1 = new CallableThread();
-        FutureTask<Integer> ft = new FutureTask<>(t1);
+        FutureTask<Integer> ft = new FutureTask<Integer>(t1);
         Thread t = new Thread(ft);
         t.start();
         try {
