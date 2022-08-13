@@ -12,16 +12,16 @@ public class StackSequences {
         Deque<Integer> stack = new ArrayDeque<Integer>();
         int j = 0;
         //for遍历pushed数组,将elem元素入栈.一种利用for循环遍历数组的方法
-        for (int elem : pushed){
+        for (int elem : pushed) {
             stack.push(elem);
             //当入栈的元素等于出栈的第一个元素时,出栈.
             //j应满足小于popped.length,stack!=null,stack栈顶元素等于popped第一个元素
-            while (j<popped.length && !stack.isEmpty() && stack.peek()==popped[j]){
+            while (j < popped.length && !stack.isEmpty() && stack.peek() == popped[j]) {
                 stack.pop();
                 j++;
             }
         }
         //如果j==pop.length的话,说明popped未pushed的出栈序列
-        return j==popped.length;
+        return j == popped.length;
     }
 }

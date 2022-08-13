@@ -3,7 +3,7 @@ package com.leetcode.stack;
 import java.util.Stack;
 
 public class MinStack {
-    Stack<Integer> A,B;
+    Stack<Integer> A, B;
 
     public MinStack() {
         A = new Stack<>();
@@ -12,12 +12,12 @@ public class MinStack {
 
     public void push(int x) {
         A.add(x);
-        if(B.empty() || B.peek() >= x)
+        if (B.empty() || B.peek() >= x)
             B.add(x);
     }
 
     public void pop() {
-        if(A.pop().equals(B.peek()))
+        if (A.pop().equals(B.peek()))
             B.pop();
     }
 

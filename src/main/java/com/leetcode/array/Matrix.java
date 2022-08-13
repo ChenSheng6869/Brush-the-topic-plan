@@ -9,13 +9,13 @@ public class Matrix {
         //矩阵：d=行，r=列
         int u = 0, d = matrix.length - 1, l = 0, r = matrix[0].length - 1;
         int index = 0;
-        while (true){
+        while (true) {
             //遍历第一行，将元素装入res数组；
             for (int i = l; i <= r; i++) {
                 res[index++] = matrix[u][i];
             }
             if (++u > d) break;
-            for (int i = u; i <= d ; i++) {
+            for (int i = u; i <= d; i++) {
                 res[index++] = matrix[i][d];
             }
             if (--r < l) break;

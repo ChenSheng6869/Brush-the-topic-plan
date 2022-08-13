@@ -6,7 +6,7 @@ public class PrintList {
     public int[] reversePrint(ListNode head) {
         //1.将链表节点入栈
         LinkedList<Integer> stack = new LinkedList<Integer>();
-        while (head != null){
+        while (head != null) {
             stack.addLast(head.val);
             head = head.next;
         }

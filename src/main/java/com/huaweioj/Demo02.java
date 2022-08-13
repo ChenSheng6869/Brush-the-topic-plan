@@ -14,7 +14,7 @@ public class Demo02 {
         String s2 = str2.toLowerCase();
         int n = 0;
         for (int i = 0; i < s1.length(); i++) {
-            if (s2.equals(s1.substring(i,i+1))){
+            if (s2.equals(s1.substring(i, i + 1))) {
                 n++;
             }
         }

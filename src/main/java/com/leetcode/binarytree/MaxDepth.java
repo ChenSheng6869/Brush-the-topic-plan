@@ -9,7 +9,7 @@ public class MaxDepth {
         int res = 0;
         Queue<TreeNode> queue = new LinkedList<>(), tmp;
         queue.offer(root);
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             int n = queue.size();
             for (int i = 0; i < n; i++) {
                 TreeNode node = queue.poll();

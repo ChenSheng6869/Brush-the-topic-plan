@@ -11,11 +11,11 @@ public class Search {
         //确定二维数组的大小
         int rows = matrix.length, cols = matrix[0].length;
         //从二维数组的右上角开始寻找
-        int r = 0, c = cols-1;
-        while (r <= rows-1 && c >= 0){
+        int r = 0, c = cols - 1;
+        while (r <= rows - 1 && c >= 0) {
             if (target == matrix[r][c])
                 return true;
-            else if (target>matrix[r][c])
+            else if (target > matrix[r][c])
                 r++;
             else
                 c--;

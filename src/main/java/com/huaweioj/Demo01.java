@@ -7,10 +7,10 @@ public class Demo01 {
         Scanner in = new Scanner(System.in);
         String word = in.nextLine();
         int n = word.lastIndexOf(" ");
-        if (n == -1){
+        if (n == -1) {
             System.out.println(word.length());
-        }else{
-            String str = word.substring(n,word.length()-1);
+        } else {
+            String str = word.substring(n, word.length() - 1);
             System.out.println(str.length());
             System.out.println(n);
             System.out.println(str);

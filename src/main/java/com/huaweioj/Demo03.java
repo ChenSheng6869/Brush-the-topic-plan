@@ -13,13 +13,13 @@ public class Demo03 {
                 int key = in.nextInt();
                 int value = in.nextInt();
                 if (map.containsKey(key))
-                    map.put(key,map.get(key)+value);
+                    map.put(key, map.get(key) + value);
                 else
                     map.put(key, value);
             }
             return;
         }
-        for(Integer key : map.keySet()){
+        for (Integer key : map.keySet()) {
             System.out.println(key + " " + map.get(key));
         }
         in.close();

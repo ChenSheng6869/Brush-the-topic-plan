@@ -7,11 +7,11 @@ package com.test;
  * @date: 2022/7/15 15:15
  * @version: 1.0
  */
-public class TestThread extends Thread{
+public class TestThread extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 20; i++) {
-            System.out.println(this.getName()+""+i);
+            System.out.println(this.getName() + "" + i);
         }
     }
 

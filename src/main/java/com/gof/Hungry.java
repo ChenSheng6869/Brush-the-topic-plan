@@ -9,13 +9,14 @@ package com.gof;
  */
 public class Hungry {
     private static Hungry HUNGRY;
-    private Hungry(){
+
+    private Hungry() {
     }
 
-    public static Hungry getHUNGRY(){
-        if (HUNGRY == null){
-            synchronized (Hungry.class){
-                if (HUNGRY == null){
+    public static Hungry getHUNGRY() {
+        if (HUNGRY == null) {
+            synchronized (Hungry.class) {
+                if (HUNGRY == null) {
                     HUNGRY = new Hungry();
                     return HUNGRY;
                 }

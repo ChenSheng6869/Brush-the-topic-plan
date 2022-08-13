@@ -1,12 +1,13 @@
 package com.leetcode.stack;
 
 import java.util.Arrays;
+
 //40.最小的 K 个数✅快排重点🚩
 public class MinK {
     //快排+复制数组
     public int[] getLeastNumbers(int[] arr, int k) {
-        quickSort(arr,0,arr.length-1);
-        return Arrays.copyOf(arr,k);
+        quickSort(arr, 0, arr.length - 1);
+        return Arrays.copyOf(arr, k);
     }
 
     //快速排序
@@ -28,7 +29,7 @@ public class MinK {
     }
 
     //交换元素
-    public void swap(int[] arr, int i, int j){
+    public void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;

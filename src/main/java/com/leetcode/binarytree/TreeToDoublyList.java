@@ -29,8 +29,9 @@ public class TreeToDoublyList {
     //头节点：head  尾节点：tail
     //head.left = tail; tail.right = head;
     Node pre, head;
+
     //二叉搜索树构建链表
-    public Node treeToDoublyList(Node root){
+    public Node treeToDoublyList(Node root) {
         if (root == null) return null;
         dfs(root);
         head.left = pre;
@@ -39,7 +40,7 @@ public class TreeToDoublyList {
     }
 
     //打印中序遍历
-    public void dfs(Node cur){
+    public void dfs(Node cur) {
         if (cur == null) return;
         dfs(cur.left);
         if (pre != null) pre.right = cur;

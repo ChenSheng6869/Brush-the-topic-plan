@@ -20,7 +20,8 @@ public class Test {
     private static AtomicInteger value2 = new AtomicInteger(0);
     //value3：使用悲观锁
     private static int value3 = 0;
-    private static synchronized void increaseValue3(){
+
+    private static synchronized void increaseValue3() {
         value3++;
     }
 
@@ -35,10 +36,10 @@ public class Test {
         StringBuilder buanquan = new StringBuilder("buanquan");
         HashSet<Integer> integers1 = new HashSet<Integer>();
 
-        int[] arr = {-1,2,3,4,-5,-6,8,9,0};
+        int[] arr = {-1, 2, 3, 4, -5, -6, 8, 9, 0};
         Arrays.sort(arr);
         //开启1000个线程，并执行自增操作
-        for(int i = 0; i < 1000; ++i){
+        for (int i = 0; i < 1000; ++i) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
