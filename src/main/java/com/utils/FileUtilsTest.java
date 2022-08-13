@@ -5,12 +5,14 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-//maven依赖工具类
+/**
+ * 删除本地maven下载的临时文件, 防止切换maven源之后出现一些不可描述的错误.
+ */
 public class FileUtilsTest {
-    private static List<File> fileList= new ArrayList<>();
+    private static List<File> fileList = new ArrayList<>();
 
-    public static Collection<File> listFiles(File file, String[] extensions, boolean isDeep){
-        if (!file.exists()){
+    public static Collection<File> listFiles(File file, String[] extensions, boolean isDeep) {
+        if (!file.exists()) {
             System.out.println("路径不存在:" + file);
         }
         listFiles(file, extensions);
@@ -19,13 +21,13 @@ public class FileUtilsTest {
 
     private static void listFiles(File file, String[] extensions) {
         File[] fs = file.listFiles();
-        for(File f : fs){
-            if (f.isDirectory()){
+        for (File f : fs) {
+            if (f.isDirectory()) {
                 listFiles(f, extensions);
             }
-            if (f.isFile()){
-                for (String extension : extensions){
-                    if (f.toString().endsWith(extension)){
+            if (f.isFile()) {
+                for (String extension : extensions) {
+                    if (f.toString().endsWith(extension)) {
                         fileList.add(f);
                     }
                 }
@@ -42,7 +44,7 @@ public class FileUtilsTest {
         };
 
         Collection<File> listFiles = FileUtilsTest.listFiles(new File(repoPath), extensions, true);
-        for (File file : listFiles){
+        for (File file : listFiles) {
             System.out.println(file);
             file.delete();
         }
