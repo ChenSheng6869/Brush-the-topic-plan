@@ -1,7 +1,5 @@
 package com.leetcode.array;
 
-import com.sun.imageio.stream.StreamFinalizer;
-
 public class ReplaceSpace {
     public static String replaceSpace(String str) {
         StringBuffer sb = new StringBuffer(str);

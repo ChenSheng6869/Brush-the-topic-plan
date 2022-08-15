@@ -1,7 +1,5 @@
 package com.huaweioj;
 
-import sun.text.resources.cldr.ti.FormatData_ti;
-
 import java.util.Scanner;
 
 public class Demo02 {

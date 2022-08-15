@@ -1,7 +1,5 @@
 package com.leetcode.stack;
 
-import sun.misc.PostVMInitHook;
-
 import java.util.Stack;
 
 //用两个栈实现队列

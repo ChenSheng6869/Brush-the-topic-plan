@@ -1,7 +1,5 @@
 package com.leetcode.binarytree;
 
-import java.util.List;
-
 class Node {
     public int val;
     public Node left;

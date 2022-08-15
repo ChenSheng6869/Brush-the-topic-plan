@@ -1,8 +1,6 @@
 package com.baiduoj;
 
 
-import java.util.*;
-
 public class Solution {
 
     public int solve(int n, int[] a1, int[] a2, int[] a3, int[] m) {

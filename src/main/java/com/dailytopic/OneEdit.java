@@ -1,7 +1,5 @@
 package com.dailytopic;
 
-import jdk.nashorn.internal.ir.IfNode;
-
 public class OneEdit {
     public boolean oneEditAway(String first, String second) {
         //只需要一次编辑就可以让两次输入的字符串相等

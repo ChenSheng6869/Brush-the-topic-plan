@@ -1,6 +1,6 @@
 package com.leetcode.sanliuling;
 
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * 在某个仓库中，堆积了很多的货物。每个货物是一个正方体的，边长为1。

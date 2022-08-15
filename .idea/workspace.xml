@@ -2,65 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b162bd-ae3f-44d4-8138-46295f11cf1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/array/Median.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/array/Median.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/array/WordIfExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/array/WordIfExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/baiduoj/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/baiduoj/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarysearch/MinArrayElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarysearch/MinArrayElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/binarysearch/fenzhi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/binarysearch/fenzhi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/binarytree/BFSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/binarytree/BFSTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailytopic/MinDeletionSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dailytopic/MinDeletionSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dailytopic/OneEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dailytopic/OneEdit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailytopic/SerializeBinaryTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dailytopic/SerializeBinaryTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dailytopic/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dailytopic/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gof/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gof/Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/array/DuplicateNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/DuplicateNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/array/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/array/Median.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/Median.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaweioj/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/array/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/ReplaceSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/array/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/array/TheSumofTwoNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/TheSumofTwoNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/IsBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/IsBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/KthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/KthLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/LowestCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/MaxDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/MirrorTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/MirrorTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PostOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PrintTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PrintTree1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/PrintTree1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/RebuildTheBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/RebuildTheBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/SerializeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/SerializeTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/SubStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/SubStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/TreeToDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/binarytree/TreeToDoublyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/DeleteNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/DeleteNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/DeleteRepeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/DeleteRepeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/GetKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/GetKthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/MergeLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/MergeLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/PrintList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/PrintList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/sanliuling/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/sanliuling/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/sanliuling/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/sanliuling/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/CQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/MedianFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/MinK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/MinK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/StackSequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/stack/StackSequences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/linkedlist/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/linkedlist/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanxin/CuttingRope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanxin/CuttingRope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanxin/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanxin/MaxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/CallableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/CallableThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tree/LevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tree/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,50 +28,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/FileUtilsTest.java">
+        <entry file="file://$PROJECT_DIR$/img/image-20220712134812751.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/binarysearch/MinArrayElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/array/Median.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/array/WordIfExist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="213">
+              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/baiduoj/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/Hungry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="303">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/IDGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -147,6 +84,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/IDGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/FileUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/baiduoj/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailytopic/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/array/WordIfExist.java" />
       </list>
     </option>
   </component>
@@ -181,15 +121,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="width" value="1486" />
-    <option name="height" value="1399" />
+    <option name="x" value="-14" />
+    <option name="width" value="1490" />
+    <option name="height" value="1402" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,8 +180,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-              <item name="Median.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="binarysearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Brush-the-topic-plan" type="b2602c69:ProjectViewProjectNode" />
@@ -249,14 +189,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="baiduoj" type="462c0819:PsiDirectoryNode" />
+              <item name="gof" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,7 +215,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -370,18 +309,19 @@
       <workItem from="1660379102060" duration="1156000" />
       <workItem from="1660380828936" duration="400000" />
       <workItem from="1660381322190" duration="148000" />
-      <workItem from="1660381529727" duration="1261000" />
+      <workItem from="1660381529727" duration="1658000" />
+      <workItem from="1660383290633" duration="304000" />
+      <workItem from="1660529273502" duration="1290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18394000" />
+    <option name="totallyTimeSpent" value="20385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1477" height="880" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16256158" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16678396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -397,19 +337,59 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.80452126" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32845744" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50030065" side_tool="true" weight="0.39289677" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50030065" side_tool="true" weight="0.39252338" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32845744" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.10767066" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.10767066" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/TestThread.java">
@@ -515,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/Hungry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Environment/java/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -555,9 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/image-20220712134812751.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar://D:/Environment/java/jdk1.8/src.zip!/java/nio/ByteBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -565,29 +535,6 @@
           <folding>
             <element signature="e#12369#12370#0" expanded="true" />
             <element signature="e#12420#12421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/IDGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/FileUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,8 +548,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/baiduoj/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="120">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/blog/binarytree/BFSTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailytopic/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailytopic/OneEdit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/IDGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/FileUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environment/java/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="413" column="34" selection-start-line="413" selection-start-column="34" selection-end-line="413" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/image-20220712134812751.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/binarysearch/MinArrayElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/array/WordIfExist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gof/Hungry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
