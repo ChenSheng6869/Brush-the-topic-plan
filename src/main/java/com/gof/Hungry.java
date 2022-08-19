@@ -13,7 +13,7 @@ public class Hungry {
     private Hungry() {
     }
 
-    public static Hungry getHUNGRY() {
+    public static Hungry getHungry() {
         if (HUNGRY == null) {
             synchronized (Hungry.class) {
                 if (HUNGRY == null) {
