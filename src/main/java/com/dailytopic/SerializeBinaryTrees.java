@@ -16,7 +16,9 @@ public class SerializeBinaryTrees {
 
     //2.反序列化字符串，返回值为二叉搜索树
     public TreeNode deserialize(String data) {
-        if (data.isEmpty()) return null;
+        if (data.isEmpty()) {
+            return null;
+        }
         String[] arr = data.split(",");
         Deque<Integer> stack = new ArrayDeque<>();
         int len = arr.length;
@@ -28,7 +30,9 @@ public class SerializeBinaryTrees {
 
     //3.后续遍历，添加进list
     private void postOrder(TreeNode root, List<Integer> list) {
-        if (root == null) return;
+        if (root == null) {
+            return;
+        }
         postOrder(root.left, list);
         postOrder(root.right, list);
         list.add(root.val);

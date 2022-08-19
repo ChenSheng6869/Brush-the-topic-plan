@@ -12,10 +12,11 @@ public class Demo03 {
             for (int i = 0; i < n; i++) {
                 int key = in.nextInt();
                 int value = in.nextInt();
-                if (map.containsKey(key))
+                if (map.containsKey(key)) {
                     map.put(key, map.get(key) + value);
-                else
+                } else {
                     map.put(key, value);
+                }
             }
             return;
         }

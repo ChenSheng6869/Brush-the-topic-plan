@@ -30,7 +30,9 @@ public class Demo05 {
             //先找到最小的SLA所在的索引
             List<Integer> minList = findMinKey(arr, minSLA);
             //判断最小索引是否存在
-            if (minList.size() <= 0) break;
+            if (minList.size() <= 0) {
+                break;
+            }
             //从最小索引列表中取得最小索引
             minSLA = arr[minList.get(0)][0];
             //判断最小的SLA是否超过了已用时间

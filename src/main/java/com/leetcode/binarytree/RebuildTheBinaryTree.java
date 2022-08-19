@@ -19,7 +19,9 @@ class RebuildTheBinaryTree {
 
     TreeNode recur(int root, int left, int right) {
         //相等就是自己
-        if (left > right) return null;
+        if (left > right) {
+            return null;
+        }
         //1.建立根节点
         TreeNode node = new TreeNode(preorder[root]);
         //2.获取根节点在中序遍历中的索引，划分左右子树(map.get获取的是value值)

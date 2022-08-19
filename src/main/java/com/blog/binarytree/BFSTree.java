@@ -28,16 +28,24 @@ public class BFSTree {
 
     public void bfsTree(TreeNode root) {
         LinkedList<TreeNode> queue = new LinkedList<>();
-        if (root != null) queue.add(root);
+        if (root != null) {
+            queue.add(root);
+        }
         while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
-            if (node.left != null) queue.add(node.left);
-            if (node.right != null) queue.add(node.right);
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                queue.add(node.right);
+            }
         }
     }
 
     public void dfsTree(TreeNode root) {
-        if (root == null) return;
+        if (root == null) {
+            return;
+        }
         list.add(root.val);
         dfsTree(root.left);
         dfsTree(root.right);

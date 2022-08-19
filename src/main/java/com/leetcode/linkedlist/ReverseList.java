@@ -4,7 +4,9 @@ package com.leetcode.linkedlist;
 public class ReverseList {
     //方法1:递归
     public ListNode reverseList(ListNode head) {
-        if (head == null || head.next == null) return head;
+        if (head == null || head.next == null) {
+            return head;
+        }
 
         ListNode cur = reverseList(head.next);
 

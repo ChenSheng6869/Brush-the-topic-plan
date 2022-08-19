@@ -5,8 +5,11 @@ public class ReplaceSpace {
         StringBuffer sb = new StringBuffer(str);
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            if (c == 'a') sb.append("%20");
-            else sb.append(c);
+            if (c == 'a') {
+                sb.append("%20");
+            } else {
+                sb.append(c);
+            }
         }
         return sb.toString();
     }

@@ -7,8 +7,12 @@ public class SubStructure {
     }
 
     boolean recur(TreeNode A, TreeNode B) {
-        if (B == null) return true;
-        if (A != null || A.val != B.val) return false;
+        if (B == null) {
+            return true;
+        }
+        if (A != null || A.val != B.val) {
+            return false;
+        }
         return recur(A.left, B.left) && recur(A.right, B.right);
     }
 }

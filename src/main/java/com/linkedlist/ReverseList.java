@@ -9,7 +9,9 @@ public class ReverseList {
     }
 
     private ListNode recur(ListNode cur, ListNode pre) {
-        if (cur == null) return pre;
+        if (cur == null) {
+            return pre;
+        }
         //遍历直至末尾
         ListNode res = recur(cur.next, cur);
         cur.next = pre;

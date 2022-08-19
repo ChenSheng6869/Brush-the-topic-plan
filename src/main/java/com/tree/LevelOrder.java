@@ -18,7 +18,9 @@ public class LevelOrder {
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         //根节点入队
-        if (root != null) queue.add(root);
+        if (root != null) {
+            queue.add(root);
+        }
         while (!queue.isEmpty()) {
             //其实这里队列不为空, 即树不为空, 用于存储一层节点
             LinkedList<Integer> tmp = new LinkedList<Integer>();
@@ -26,13 +28,18 @@ public class LevelOrder {
             for (int i = queue.size(); i > 0; i--) {
                 //返回第一个元素并从队列中删除
                 TreeNode node = queue.poll();
-                if (res.size() % 2 == 0)
+                if (res.size() % 2 == 0) {
                     tmp.addLast(node.val);
-                else
+                } else {
                     tmp.addFirst(node.val);
+                }
                 //判断左右子树根节点情况
-                if (node.left != null) queue.add(node.left);
-                if (node.right != null) queue.add(node.right);
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
             }
             res.add(tmp);
         }

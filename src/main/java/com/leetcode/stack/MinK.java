@@ -14,12 +14,18 @@ public class MinK {
     //l:0, r:arr.length-1
     private void quickSort(int[] arr, int l, int r) {
         // 子数组长度为 1 时终止递归
-        if (l >= r) return;
+        if (l >= r) {
+            return;
+        }
         // 哨兵划分操作（以 arr[l] 作为基准数）
         int i = l, j = r;
         while (i < j) {
-            while (i < j && arr[j] >= arr[l]) j--;
-            while (i < j && arr[i] <= arr[l]) i++;
+            while (i < j && arr[j] >= arr[l]) {
+                j--;
+            }
+            while (i < j && arr[i] <= arr[l]) {
+                i++;
+            }
             swap(arr, i, j);
         }
         swap(arr, i, l);

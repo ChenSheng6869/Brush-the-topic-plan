@@ -30,7 +30,9 @@ public class TreeToDoublyList {
 
     //二叉搜索树构建链表
     public Node treeToDoublyList(Node root) {
-        if (root == null) return null;
+        if (root == null) {
+            return null;
+        }
         dfs(root);
         head.left = pre;
         pre.right = head;
@@ -39,10 +41,15 @@ public class TreeToDoublyList {
 
     //打印中序遍历
     public void dfs(Node cur) {
-        if (cur == null) return;
+        if (cur == null) {
+            return;
+        }
         dfs(cur.left);
-        if (pre != null) pre.right = cur;
-        else head = cur;
+        if (pre != null) {
+            pre.right = cur;
+        } else {
+            head = cur;
+        }
         cur.left = pre;
         pre = cur;
         dfs(cur.right);

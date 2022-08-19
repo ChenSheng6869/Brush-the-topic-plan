@@ -20,8 +20,9 @@ public class CallableThread implements Callable<Integer> {
     public Integer call() {
         int i = 0;
         for (i = 0; i < 20; i++) {
-            if (i == 5)
+            if (i == 5) {
                 break;
+            }
             System.out.println(Thread.currentThread().getName() + " " + i);
         }
         return i;

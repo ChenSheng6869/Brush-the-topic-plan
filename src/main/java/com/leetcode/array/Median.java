@@ -11,10 +11,12 @@ class Solution1 {
     }
 
     public int findKth(int[] nums1, int i, int nums2[], int j, int k) {
-        if (i >= nums1.length)
+        if (i >= nums1.length) {
             return nums2[j + k - 1];
-        if (j >= nums2.length)
+        }
+        if (j >= nums2.length) {
             return nums1[i + k - 1];
+        }
         if (k == 1) {
             return Math.min(nums1[i], nums2[j]);
         }

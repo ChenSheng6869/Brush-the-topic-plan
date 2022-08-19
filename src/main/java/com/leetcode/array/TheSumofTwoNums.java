@@ -13,7 +13,8 @@ class Solution {
             if (hashtable.containsKey(target - nums[i])) {
                 return new int[]{hashtable.get(target - nums[i]), i};
             }
-            hashtable.put(nums[i], i);//put(key,value)
+            //put(key,value)
+            hashtable.put(nums[i], i);
         }
         return new int[0];
     }

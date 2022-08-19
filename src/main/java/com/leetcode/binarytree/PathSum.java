@@ -16,13 +16,16 @@ public class PathSum {
 
     public void recur(TreeNode root, int tar) {
         //空节点，返回
-        if (root == null) return;
+        if (root == null) {
+            return;
+        }
         //将节点值添加进路径
         path.add(root.val);
         tar -= root.val;
         //tar值为0时,且遍历至叶子节点,将列表path添加进最终列表res
-        if (tar == 0 && root.right == null && root.left == null)
+        if (tar == 0 && root.right == null && root.left == null) {
             res.add(new LinkedList<>(path));
+        }
         recur(root.left, tar);
         recur(root.right, tar);
         //回溯将上一个不符合路径的值移除至列表

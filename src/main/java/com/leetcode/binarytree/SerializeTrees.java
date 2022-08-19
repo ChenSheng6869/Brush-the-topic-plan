@@ -6,7 +6,9 @@ import java.util.Queue;
 public class SerializeTrees {
     //1.序列化二叉树，返回值类型为字符串
     public String serialize(TreeNode root) {
-        if (root == null) return "[]";
+        if (root == null) {
+            return "[]";
+        }
         StringBuilder res = new StringBuilder("[");
         Queue<TreeNode> queue = new LinkedList() {{
             add(root);
@@ -29,7 +31,9 @@ public class SerializeTrees {
     }
 
     public TreeNode deserialize(String data) {
-        if (data.equals("[]")) return null;
+        if (data.equals("[]")) {
+            return null;
+        }
         String[] vals = data.substring(1, data.length() - 1).split(",");
         TreeNode root = new TreeNode(Integer.parseInt(vals[0]));
         Queue<TreeNode> queue = new LinkedList<>();
